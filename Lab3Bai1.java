@@ -135,8 +135,8 @@ class OrderDetail {
 class Main{
     public static void main(String[] args) {
         Product p1 = new Product("sp4", "Nuoc tuong", 8000);
-        Product p2 = new Product("sp1", "Gao", 18000);
-        Product p3 = new Product("sp3", "Duong", 10000);
+        Product p2 = new Product("sp3", "Gao", 18000);
+        Product p3 = new Product("sp2", "Duong", 10000);
         Product p4 = new Product("sp1", "Gao", 18000);
         Order or = new Order(1, LocalDate.now());
         or.addLineItem(p1, 10);
